@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="text-white mt-24 w-full">
+    <main className="text-white w-full">
       <Hero/>
       <Problem/>
     </main>
