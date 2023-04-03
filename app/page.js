@@ -6,6 +6,9 @@ import Spline from "@splinetool/react-spline";
 import Hero from "@/sections/Hero";
 import Problem from "@/sections/Problem";
 import Solution from "@/sections/Solution";
+import Features from "@/sections/Features";
+import CTA from "@/sections/CTA";
+import Footer from "@/sections/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -14,6 +17,9 @@ export default function Home() {
       <Hero/>
       <Problem/>
       <Solution/>
+      <Features/>
+      <CTA/>
+      <Footer/>
     </main>
   );
 }
