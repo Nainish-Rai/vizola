@@ -9,6 +9,7 @@ import Solution from "@/sections/Solution";
 import Features from "@/sections/Features";
 import CTA from "@/sections/CTA";
 import Footer from "@/sections/Footer";
+import Checkout from "@/components/SignIn";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Features/>
       <CTA/>
       <Footer/>
+      
     </main>
   );
 }

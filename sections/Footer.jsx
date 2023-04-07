@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Footer = () => {
   return (
     <footer className='mt-48 border-gray-500/50 border-t p-4 px-12 flex flex-col justify-between pt-24 md:flex-row flex-wrap'>
@@ -10,6 +11,7 @@ const Footer = () => {
             <li><a href="http://">Instagram</a></li>
             <li><a href="http://">Email</a></li>
         </ul>
+       
         <ul className='my-4 flex flex-col gap-2'>
             <li><a href="http://">About us</a></li>
             <li><a href="http://">Features</a></li>
