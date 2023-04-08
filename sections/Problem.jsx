@@ -6,7 +6,8 @@ import { slideIn } from "@/utils/motion";
 
 const Problem = () => {
   return (
-    <div id="problem" className=" snap-center my-12 h-screen flex flex-col lg:flex-row-reverse justify-between  items-center md:mx-12">
+    <div id="problem" className="w-full ">
+    <div  className=" snap-center my-12 h-screen flex flex-col lg:flex-row-reverse justify-between max-w-6xl  items-center md:mx-auto">
       <div className="md:w-2/3 w-full">
         <motion.h1
           variants={textVariant(0.15)}
@@ -46,7 +47,7 @@ const Problem = () => {
       >
         <Spline scene="https://prod.spline.design/lIOVKOhBnCcy4wo9/scene.splinecode" />
       </motion.div>
-    </div>
+    </div></div>
   );
 };
 

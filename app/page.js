@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="text-white w-full snap-mandatory snap-y">
+    <main className="text-white w-full snap-mandatory snap-y flex flex-col items-center">
       <Hero/>
       <Problem/>
       <Solution/>

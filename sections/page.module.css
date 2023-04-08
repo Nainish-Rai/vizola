@@ -1,0 +1,6 @@
+#hero{
+
+    background-color: rgb(0, 0, 0);
+    background-image: radial-gradient(at 0% 100%, rgb(99, 102, 241) 0, transparent 28%), radial-gradient(at 100% 0%, rgb(225, 29, 72) 0, transparent 60%), radial-gradient(at 97% 0%, rgb(88, 28, 135) 0, transparent 62%), radial-gradient(at 29% 11%, rgb(0, 0, 0) 0, transparent 78%), radial-gradient(at 24% 13%, rgb(39, 39, 42) 0, transparent 37%), radial-gradient(at 5% 69%, rgb(17, 94, 89) 0, transparent 26%);
+}
+      

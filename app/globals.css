@@ -86,3 +86,47 @@
 }
 
 
+#home{
+
+  background-color:hsla(165,0%,0%,1);
+  background-image:
+  radial-gradient(at 72% 0%, hsla(187,81%,64%,0.24) 0px, transparent 50%),
+  radial-gradient(at 0% 100%, hsla(279,100%,16%,1) 0px, transparent 50%);
+}
+
+#problem{
+  background-color:hsla(165,0%,0%,1);
+  background-image:
+  radial-gradient(at 100% 100%, hsla(304,100%,50%,0.19) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(279,100%,16%,1) 0px, transparent 50%);
+}
+
+#solution{
+  background-color:hsla(165,0%,0%,1);
+background-image:
+radial-gradient(at 99% 0%, hsla(304,100%,50%,0.19) 0px, transparent 50%),
+radial-gradient(at 25% 100%, hsla(279,100%,16%,0.54) 0px, transparent 50%);
+}
+
+#features{
+  background-color:hsla(304,0%,0%,1);
+background-image:
+radial-gradient(at 25% 0%, hsla(279,100%,16%,0.54) 0px, transparent 50%),
+radial-gradient(at 64% 100%, hsla(187,100%,38%,0.19) 0px, transparent 50%);
+}
+
+#cta{
+  background-color:hsla(304,0%,0%,1);
+  background-image:
+  radial-gradient(at 0% 100%, hsla(279,0%,0%,0.54) 0px, transparent 50%),
+  radial-gradient(at 64% 0%, hsla(187,100%,38%,0.19) 0px, transparent 50%);
+}
+
+/* #featurecard{
+  background: rgba( 255, 255, 255, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+} */

@@ -8,9 +8,9 @@ const Features = () => {
   return (
     <div
       id="features"
-      className=" snap-center mb-24 pt-24  flex flex-col justify-between  items-center md:mx-12"
+      className="w-full snap-center  pt-24  flex flex-col justify-between  items-center md:mx-12"
     >
-      <div className="md:w-2/3 w-full">
+      <div className="md:w w-full">
         <motion.h1
           variants={textVariant(0.15)}
           initial="hidden"
@@ -28,7 +28,7 @@ const Features = () => {
         variants={textVariant(0.4)}
         initial="hidden"
         whileInView="show"
-        className="w-full flex flex-col md:flex-row  flex-wrap-reverse justify-center items-center lg:gap-4 gap-0 mt-6 "
+        className="max-w-6xl flex flex-col flex-wrap-reverse sm:flex-row justify-center items-center lg:gap-4 gap-0 mt-6 "
       >
         <FeatureCard
           title="Immersive"
