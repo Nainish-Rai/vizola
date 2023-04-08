@@ -15,9 +15,9 @@ const FeatureCard = ({ title, description }) => {
     reset: true, // If the tilt effect has to be reset on exit.
     easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
   };
-  return ( screen.width > 900 ? 
+  return ( <>
     <Tilt
-      className="w-full lg:w-96  sm:w-[40%] m-2 h-fit rounded-xl p-2
+      className="w-full lg:w-96 hidden lg:block sm:w-[40%] m-2 h-fit rounded-xl p-2
      cursor-pointer border hover:shadow-xl backdrop-blur-sm border-white/5 bg-gray-900/10  hover:bg-slate-950/10 hover:shadow-white/10 duration-300"
       options={defaultOptions}
       id="featurecard"
@@ -28,9 +28,9 @@ const FeatureCard = ({ title, description }) => {
         </div>
         <div className=" text-gray-400 mt-4 leading-relaxed md:text-center lg:text-left text-sm">{description}</div>
       </div>
-    </Tilt>:
+    </Tilt>
      <div
-     className="w-full lg:w-96 md:w-1/2 sm:w-[40%] m-2 h-fit rounded-xl p-2
+     className="w-full lg:hidden lg:w-96 md:w-1/2 sm:w-[40%] m-2 h-fit rounded-xl p-2
     cursor-pointer border hover:shadow-xl backdrop-blur-sm border-white/5 bg-gray-900/10  hover:bg-slate-950/10 hover:shadow-white/10 duration-300"
      id="featurecard"
    >
@@ -41,7 +41,7 @@ const FeatureCard = ({ title, description }) => {
        <div className=" text-gray-400 mt-4 leading-relaxed md:text-center lg:text-left text-sm">{description}</div>
      </div>
    </div>
-    
+    </>
   );
 };
 
