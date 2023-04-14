@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className=' w-full mt-48 border-gray-500/50 border-t p-4 px-2 lg:px-24 flex flex-col justify-between pt-24 md:flex-row flex-wrap'>
+    <footer className=' w-full mt-48 border-gray-500/50 border-t p-4 px-4 lg:px-24 flex flex-col justify-between pt-24 md:flex-row flex-wrap'>
         <ul className='my-4 flex flex-col gap-2'>
             <li><a href="http://">Github</a></li>
             <li><a href="http://">LinkedIn</a></li>

@@ -7,7 +7,7 @@ import { slideIn } from "@/utils/motion";
 const Problem = () => {
   return (
     <div id="problem" className="w-full ">
-    <div  className=" snap-center my-12 h-screen flex flex-col lg:flex-row-reverse justify-between max-w-6xl  items-center md:mx-auto">
+    <div  className="px-4 snap-center my-12 h-screen flex flex-col lg:flex-row-reverse justify-between max-w-6xl  items-center md:mx-auto">
       <div className="md:w-2/3 w-full">
         <motion.h1
           variants={textVariant(0.15)}
@@ -15,7 +15,7 @@ const Problem = () => {
           whileInView="show"
           
       viewport={{ once: false }}
-          className=" text-5xl text-center lg:text-right leading-normal font-semibold"
+          className=" text-5xl text-left  sm:text-center lg:text-right leading-normal font-semibold"
         >
           <span className="bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-green-600 via-pink-300 to-indigo-700 text-7xl font-bold text-transparent bg-clip-text">
             Problems
@@ -28,7 +28,7 @@ const Problem = () => {
           
       viewport={{ once: false }}
           whileInView="show"
-          className=" mt-5 lg:ml-24 text-center text-gray-200  lg:text-right"
+          className=" mt-5 lg:ml-24 text-left sm:text-center text-gray-200  lg:text-right"
         >
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
           voluptatum culpa facilis numquam eaque nobis ex laborum sequi, ad,

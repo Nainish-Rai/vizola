@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className=" z-50 w-full p-5 fixed top-0 flex items-center justify-between lg:max-w-7xl lg:mx-auto">
-      <div className="text-white text-2xl bg-black/5 backdrop-blur-sm rounded-full p-2 px-4">
+      <div className="text-white text-2xl bg-black/5 backdrop-blur-sm rounded-full p-2  sm:px-4">
         Vizola
       </div>
       <div className="hidden sm:flex justify-between space-x-6 bg-black/5 p-2 px-5 rounded-full backdrop-blur-sm">

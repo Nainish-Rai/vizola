@@ -8,14 +8,14 @@ const Features = () => {
   return (
     <div
       id="features"
-      className="w-full snap-center  pt-24  flex flex-col justify-between  items-center md:mx-12"
+      className="w-full snap-center px-4  pt-24  flex flex-col justify-between  items-center md:mx-12"
     >
       <div className="md:w w-full">
         <motion.h1
           variants={textVariant(0.15)}
           initial="hidden"
           whileInView="show"
-          className=" text-5xl text-center  leading-normal font-semibold"
+          className="  text-4xl sm:text-5xl text-left sm:text-center  leading-normal font-semibold"
         >
           <span className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-cyan-900 via-fuchsia-500 to-yellow-800 text-7xl font-bold text-transparent bg-clip-text">
             Features

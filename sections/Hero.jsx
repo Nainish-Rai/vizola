@@ -7,7 +7,7 @@ import styles from "./page.module.css"
 const Hero = () => {
   return (
       <div  id="home" className="w-full">
-    <div style={styles.home} className=" max-w-7xl snap-center flex lg:h-screen flex-col mt-12 md:mt-24 lg:mt-0 lg:flex-row justify-between items-center md:px-12 md:pl-16 md:mx-auto mx-5">
+    <div style={styles.home} className=" max-w-7xl snap-center flex lg:h-screen flex-col mt-20 mb-12 md:mt-24 lg:mt-0 lg:flex-row justify-between items-center md:px-12 md:pl-16 md:mx-auto mx-5">
 
       <motion.h1 variants={textVariant(0.5)} initial="hidden" whileInView="show"
         className="text-4xl sm:text-5xl md:text-center text-left leading-loose font-medium ">

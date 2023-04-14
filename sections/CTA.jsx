@@ -6,7 +6,7 @@ import { slideIn } from "@/utils/motion";
 
 const CTA = () => {
   return (
-    <div className="w-full flex justify-center p-2 " id="cta">
+    <div className="w-full flex justify-center p-2" id="cta">
       <motion.div
         variants={textVariant(0.1)}
         initial="hidden"
